@@ -37,8 +37,8 @@ def main():
 
 
 def create_banner():
-    banner = pyfiglet.figlet_format("banana812")
-    print(Fore.YELLOW + banner)
+    banner = pyfiglet.figlet_format("readocdev")
+    print(Fore.GREEN + banner)
 
 def print_menu():
     console = Console()
